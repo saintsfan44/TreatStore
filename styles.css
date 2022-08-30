@@ -1,0 +1,28 @@
+.about-section {
+    display: grid;
+    grid-template-columns:50% 8fr;
+    grid-template-rows: 1fr ;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.larrypic {
+    margin: auto;
+    border-radius: 1;
+}
+.content {
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.break {
+    border-width: 50%;
+    border-color: black;
+    border-style: solid;
+}
+
+.about-title {
+   width: 100%;
+   text-align: center;
+}
