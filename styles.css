@@ -14,6 +14,7 @@
     font-family: 'Tangerine', serif;
     font-size: 20px;
     text-shadow: 4px 4px 4px #aaa;
+    
 }
 
 .break {
@@ -25,4 +26,30 @@
 .about-title {
    width: 100%;
    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card {
+    margin: 10px 20px 0 20px ;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+}
+
+.carousel {
+    max-width: 80%;
+    margin: auto;
+    min-width: 80%;
+}
+
+.carousel-inner {
+    margin: auto;
 }
