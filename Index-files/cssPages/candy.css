@@ -1,0 +1,90 @@
+.container {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #efefef;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "header header header header"
+                         "sidebar main main main"
+                         "sidebar main main main"
+                         "sidebar main main main"
+                         "footer footer footer footer";
+    grid-gap: 1rem;
+}
+
+.container div {
+    
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+.header {
+    grid-area: header;
+    border: 5px solid black;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: lightgray;
+}
+
+.main {
+   grid-area: main;
+   border: 5px solid black;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.footer {
+    grid-area: footer;
+    border: 5px solid black;
+}
+
+/*shopping cart card*/
+.card {
+   border: 5px dashed black;
+   max-width: 350px;
+   height: 500px;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+}
+
+.card-top {
+    height: 35%;
+    border: 5px solid black;
+    
+    
+}
+
+.card-bottom {
+    border: 5px solid black;
+    height: 50%;
+}
+
+.card-img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    border: 5px solid black;
+
+}
+
+.price {
+    color: black;
+}
+
+.item-Description {
+    color: black;
+}
+
+.item-name {
+    color: black;
+}

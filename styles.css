@@ -28,6 +28,7 @@
 
 .sidebar {
     grid-area: sidebar;
+    background-color: lightgray;
 }
 
 .main {
