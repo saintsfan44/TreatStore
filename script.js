@@ -1,7 +1,12 @@
+const mainContainer = document.querySelector('.container');
+const candyPage = document.querySelector('.candyPage');
+const candyBtn = document.querySelector('.btn');
 
+const goToCandyPage = () => {
+    mainContainer.style.display = 'none';
+    candyPage.style.display = 'grid';
+};
 
-const myCarouselElement = document.querySelector('#myCarousel')
-const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
-  wrap: false
+candyBtn.addEventListener('click', e => {
+    goToCandyPage();
 });
