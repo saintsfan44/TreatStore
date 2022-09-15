@@ -35,6 +35,10 @@ header {
     align-items: center;
 }
 
+.Title {
+    align-self: center;
+}
+
 .cart-box {
     display: flex;
     position: absolute;
@@ -120,101 +124,4 @@ header {
 
 .nav-item {
     margin: 100px;
-}
-
-/*candy page style*/
-.candyPage {
-    max-width: 100%;
-    height: 100vh;
-    background-color: #efefef;
-    display: none;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "c-header c-header c-header c-header"
-                         "c-sidebar c-main c-main c-main"
-                         "c-sidebar c-main c-main c-main"
-                         "c-sidebar c-main c-main c-main"
-                         "c-footer c-footer c-footer c-footer";
-    grid-gap: 1rem;
-}
-
-.candyPage div {
-    
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem;
-    color: #fff;
-}
-
-.candy-header {
-    grid-area: c-header;
-    border: 5px solid black;
-}
-
-.candy-sidebar {
-    grid-area: c-sidebar;
-    background-color: lightgray;
-}
-
-.candy-main {
-   grid-area: c-main;
-   border: 5px solid black;
-   display: flex;
-   flex-wrap: wrap;
-}
-
-.candy-footer {
-    grid-area: c-footer;
-    border: 5px solid black;
-}
-
-/*shopping cart card*/
-.custom-card {
-   /* border: 5px dashed black; */
-   max-width: 350px;
-   height: 500px;
-   border-radius: 1rem;
-   display: flex;
-   flex-direction: column;
-   margin: 10px;
-   background-image: linear-gradient(purple, white);
-}
-
-.card-top {
-    height: 35%;
-   
-    
-    
-}
-
-.card-bottom {
-    height: 50%;
-}
-
-.card-img {
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-}
-
-
-
-.toCart-btn {
-    cursor: pointer;
-}
-
-.price {
-    color: black;
-    margin-top: 10px;
-    
-}
-
-.item-Description {
-    color: black;
-    margin-bottom: .5px;
-}
-
-.item-name {
-    color: black;
-    margin-top: 2px;
 }
